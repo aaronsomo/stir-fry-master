@@ -16,6 +16,10 @@
 		598A9E5A24AED64900F118CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A9E5824AED64900F118CC /* LaunchScreen.storyboard */; };
 		598A9E6524AED64900F118CC /* Stir_Fry_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E6424AED64900F118CC /* Stir_Fry_MasterTests.swift */; };
 		598A9E7024AED64900F118CC /* Stir_Fry_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E6F24AED64900F118CC /* Stir_Fry_MasterUITests.swift */; };
+		598A9E7E24AED6E700F118CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E7D24AED6E700F118CC /* Helper.swift */; };
+		598A9E8224AED6F400F118CC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E7F24AED6F300F118CC /* Menu.swift */; };
+		598A9E8324AED6F400F118CC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E8024AED6F400F118CC /* Order.swift */; };
+		598A9E8424AED6F400F118CC /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 598A9E8124AED6F400F118CC /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		598A9E6B24AED64900F118CC /* Stir Fry MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stir Fry MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A9E6F24AED64900F118CC /* Stir_Fry_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stir_Fry_MasterUITests.swift; sourceTree = "<group>"; };
 		598A9E7124AED64900F118CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598A9E7D24AED6E700F118CC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
+		598A9E7F24AED6F300F118CC /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		598A9E8024AED6F400F118CC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
+		598A9E8124AED6F400F118CC /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				598A9E4A24AED64500F118CC /* AppDelegate.swift */,
 				598A9E4C24AED64500F118CC /* SceneDelegate.swift */,
 				598A9E5124AED64500F118CC /* ContentView.swift */,
+				598A9E7D24AED6E700F118CC /* Helper.swift */,
+				598A9E8124AED6F400F118CC /* menu.json */,
+				598A9E7F24AED6F300F118CC /* Menu.swift */,
+				598A9E8024AED6F400F118CC /* Order.swift */,
 				598A9E5324AED64900F118CC /* Assets.xcassets */,
 				598A9E5824AED64900F118CC /* LaunchScreen.storyboard */,
 				598A9E5B24AED64900F118CC /* Info.plist */,
@@ -245,6 +257,7 @@
 			files = (
 				598A9E5A24AED64900F118CC /* LaunchScreen.storyboard in Resources */,
 				598A9E5724AED64900F118CC /* Preview Assets.xcassets in Resources */,
+				598A9E8424AED6F400F118CC /* menu.json in Resources */,
 				598A9E5424AED64900F118CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598A9E8224AED6F400F118CC /* Menu.swift in Sources */,
 				598A9E5024AED64500F118CC /* Stir_Fry_Master.xcdatamodeld in Sources */,
 				598A9E4B24AED64500F118CC /* AppDelegate.swift in Sources */,
+				598A9E7E24AED6E700F118CC /* Helper.swift in Sources */,
 				598A9E5224AED64500F118CC /* ContentView.swift in Sources */,
 				598A9E4D24AED64500F118CC /* SceneDelegate.swift in Sources */,
+				598A9E8324AED6F400F118CC /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
