@@ -14,14 +14,30 @@ struct ItemDetail: View {
     
     var body: some View {
         VStack {
-            Image(item.mainImage)
+            ZStack(alignment: .bottomTrailing) {
+                Image(item.mainImage)
+                Text("Photo: \(item.photoCredit)")
+                    .padding(4)
+                    .background(Color.black.opacity(0.65))
+                    .cornerRadius(5)
+                    .font(.caption)
+                    .foregroundColor(.white)
+                    .offset(x: -30, y: -10)
+            }
             Text(item.description)
-        }.navigationBarTitle(item.name)
+            .padding()
+            
+            Spacer()
+            
+        }.navigationBarTitle(Text(item.name), displayMode: .inline)
     }
 }
 
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetail(item:MenuItem.example)
+        NavigationView {
+            ItemDetail(item:MenuItem.example)
+            
+        }
     }
 }
