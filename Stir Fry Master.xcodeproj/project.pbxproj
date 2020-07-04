@@ -20,7 +20,8 @@
 		598A9E8224AED6F400F118CC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E7F24AED6F300F118CC /* Menu.swift */; };
 		598A9E8324AED6F400F118CC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E8024AED6F400F118CC /* Order.swift */; };
 		598A9E8424AED6F400F118CC /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 598A9E8124AED6F400F118CC /* menu.json */; };
-		598A9E8824AED8D800F118CC /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E8724AED8D800F118CC /* ItemRow.swift */; };
+		598A9E8924AEE6D000F118CC /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E8724AED8D800F118CC /* ItemRow.swift */; };
+		598A9E8B24B02A0D00F118CC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9E8A24B02A0D00F118CC /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		598A9E8024AED6F400F118CC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
 		598A9E8124AED6F400F118CC /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 		598A9E8724AED8D800F118CC /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		598A9E8A24B02A0D00F118CC /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				598A9E4C24AED64500F118CC /* SceneDelegate.swift */,
 				598A9E5124AED64500F118CC /* ContentView.swift */,
 				598A9E8724AED8D800F118CC /* ItemRow.swift */,
+				598A9E8A24B02A0D00F118CC /* ItemDetail.swift */,
 				598A9E7D24AED6E700F118CC /* Helper.swift */,
 				598A9E8124AED6F400F118CC /* menu.json */,
 				598A9E7F24AED6F300F118CC /* Menu.swift */,
@@ -290,10 +293,11 @@
 				598A9E5024AED64500F118CC /* Stir_Fry_Master.xcdatamodeld in Sources */,
 				598A9E4B24AED64500F118CC /* AppDelegate.swift in Sources */,
 				598A9E7E24AED6E700F118CC /* Helper.swift in Sources */,
+				598A9E8B24B02A0D00F118CC /* ItemDetail.swift in Sources */,
 				598A9E5224AED64500F118CC /* ContentView.swift in Sources */,
 				598A9E4D24AED64500F118CC /* SceneDelegate.swift in Sources */,
 				598A9E8324AED6F400F118CC /* Order.swift in Sources */,
-				598A9E8824AED8D800F118CC /* ItemRow.swift in Sources */,
+				598A9E8924AEE6D000F118CC /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
